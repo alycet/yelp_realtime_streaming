@@ -4,7 +4,7 @@
 
 
 ### System Architecture
-![Architecture Diagram](https://github.com/alycet/movie-data-etl-pipeline/blob/main/IMDB%20Movie%20Pipeline%20Architecture%20-%20Page%201.png)
+![Architecture Diagram](https://github.com/alycet/yelp_realtime_streaming/blob/main/Yelp_Streaming_Architecture.png)
 ### About the Data/AP
 
 
