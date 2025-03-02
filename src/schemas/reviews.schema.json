@@ -1,0 +1,29 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "yelp_customer_reviews_schema",
+    "type": "object",
+    "description": "schema for reviews",
+    "properties": {
+      "review_id": {
+        "type": "string"
+      },
+      "user_id": {
+        "type": "string"
+      },
+      "business_id": {
+        "type": "string"
+      },
+      "stars": {
+        "type": "number"
+      },
+      "date": {
+        "type": "string"
+      },
+      "text": {
+        "type": "string"
+      },
+      "feedback": {
+        "type": "string"
+      }
+    }
+  }
