@@ -1,18 +1,18 @@
 config = {
     "openai": {
-        "api_key" : ""
+        "api_key": "OPENAI_KEY"
     },
     "kafka": {
-        "sasl.username": "",
-        "sasl.password": "",
-        "bootstrap.servers": "pkc-p11xm.us-east-1.aws.confluent.cloud:9092",
-        "security.protocol": "SASL_SSL",
-        "sasl.mechanism": "PLAIN",
-        "session.timeout.ms" : 50000
+        "sasl.username": "KAFKA_CLUSTER_API_KEY",
+        "sasl.password": "KAFKA_CLUSTER_API_SECRET",
+        "bootstrap.servers": "KAFKA_CLUSTER_BOOTSTRAP_SERVER_URL:PORT",
+        'security.protocol': 'SASL_SSL',
+        'sasl.mechanisms': 'PLAIN',
+        'session.timeout.ms': 50000
     },
     "schema_registry": {
-        "url": "https://psrc-6kq702.us-east-1.aws.confluent.cloud",
-        "basic.auth.user.info": ""
+        "url": "SCHEMA_REGISTRY_URL",
+        "basic.auth.user.info": "SR_API_KEY:SR_API_SECRET"
+
     }
-    
 }
