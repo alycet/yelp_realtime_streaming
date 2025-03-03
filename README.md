@@ -1,4 +1,4 @@
-# yelp_realtime_streaming
+# Yelp Customer Reviews Realtime Streaming
 
 ### Introduction
 
