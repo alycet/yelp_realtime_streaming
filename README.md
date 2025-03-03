@@ -82,12 +82,13 @@ Set Up the Environment:
       - Use Docker Compose to launch and initialize the Spark cluster (master and worker nodes) 
 
 2. **Initialize the TCP/IP Socket**:
-      - Start the TCP/IP socket server to simulate real-time data streaming.
+      - Submit socket streaming job to cluster to start the TCP/IP socket server to simulate real-time data streaming.
       - The server streams data from the Yelp dataset in chunks to mimic a live data feed.
 
 3. **Data Processing with Apache Spark**:
-   
-      - Spark processes the incoming data stream from the socket, performing transformations and cleaning.
+         
+      - Submit spark streaming job to the cluster.   
+      - The spark job processes the incoming data stream from the socket, performing transformations and cleaning.
       - The OpenAI language model extracts insights such as positive, negative, or neutral sentiments from the text column in the yelp reviews.
 
 5. **Publish Data to Kafka**:
