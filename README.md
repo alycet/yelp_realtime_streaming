@@ -79,32 +79,28 @@ Set Up the Environment:
 1. **Clone the repository from GitHub**:
 
       - Naviagate to the project directory.
-      - Use Docker Compose to launch and initialize the Spark cluster.
+      - Use Docker Compose to launch and initialize the Spark cluster (master and worker nodes) 
 
 2. **Initialize the TCP/IP Socket**:
       - Start the TCP/IP socket server to simulate real-time data streaming.
       - The server streams data from the Yelp dataset in chunks to mimic a live data feed.
 
 3. **Data Processing with Apache Spark**:
-      - Launch the Apache Spark cluster (master and worker nodes).
-      - Spark processes the incoming data stream, performing transformations and cleaning.
-
-4. **Sentiment Analysis with OpenAI LLM**:
-
-      - Integrate OpenAI's language model (e.g., ChatGPT) to analyze the sentiment of Yelp reviews.
-      - The model extracts insights such as positive, negative, or neutral sentiments from the reviews text column.
+   
+      - Spark processes the incoming data stream from the socket, performing transformations and cleaning.
+      - The OpenAI language model extracts insights such as positive, negative, or neutral sentiments from the text column in the yelp reviews.
 
 5. **Publish Data to Kafka**:
-
-      - Push the processed and enriched data (including sentiment analysis results) to a Kafka topic.
-      - Kafka acts as a distributed messaging system for scalable data handling.
+      - Create a Kafka Cluster in Confluent Cloud and create a Kafka topic.
+      - Push the processed and enriched data to the Kafka topic.
+      - Messages in the Kafka topic can be monitored in the Confluent Control Center
 
 6. **Ingest Data into Snowflake**:
-
-      - Use Kafka Connect sink to stream data from Kafka to Snowflake.
+      - Use Kafka Connector to create a Snowflake sink connector.
+      - The sink connector streams data from the Kafka topic to a Snowflake staging table.
+      - In Snowflake, the data is properly formattd, cleaned, and loaded to the target production table using Snowflake procedures and tasks.
 
 7. **Monitor and Optimize**:
-
       - Continue to monitor the pipeline's performance using the Kafka Control Center and Spark UI.
   
 [Back to table of contents](https://github.com/alycet/yelp_realtime_streaming/blob/main/README.md#table-of-contents)
