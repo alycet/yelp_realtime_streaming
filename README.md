@@ -1,7 +1,7 @@
 # Yelp Customer Reviews Realtime Streaming
 
 ## Table of Contents
-* [Introduction](https://github.com/alycet/yelp_realtime_streaming/blob/main/README.md#introduction)
+- [Introduction](https://github.com/alycet/yelp_realtime_streaming/blob/main/README.md#introduction)
 - [System Architecture]()
 - [About the Data]()
 - [Services/Tools Used]()
