@@ -77,8 +77,8 @@ Set Up the Environment:
 
 1. **Clone the repository from GitHub**:
 
-  - Install the required dependencies (e.g., Python libraries, Apache Spark, Kafka, etc.).
-  - Configure Docker and Docker Compose if the project uses containerization.
+      - Install the required dependencies (e.g., Python libraries, Apache Spark, Kafka, etc.).
+      - Configure Docker and Docker Compose if the project uses containerization.
 
 2. **Initialize the TCP/IP Socket**:
 
