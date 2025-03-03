@@ -10,10 +10,13 @@
 
 ### Sevices/Tools Used
 
-1.  **Confluent**: Confluent is a cloud-based data streaming platform that helps users store, access, and manage data in real time. It's built on Apache Kafka, but includes additional tools and services.
-2.  **Docker**: Docker is a software platform that allows developers to create, test, and deploy applications quickly. It uses containers, which are standardized units that contain all the software required to run an 
-3.  **Snowflake**: Snowflake is a cloud-based data warehouse platform that allows users to store, analyze, and exchange data. It's a Software as a Service (SaaS) platform that's designed to be scalable and flexible.
-application.
+1. **TCP/IP Socket**:
+2. **Apache Spark**:
+3.  **Confluent Kafka**: Confluent is a cloud-based data streaming platform that helps users store, access, and manage data in real time. It's built on Apache Kafka, but includes additional tools and services.
+4.  **Confluent Control Center and Schema Registry**:
+5.  **Kafka Connect**:
+6.  **Snowflake**: Snowflake is a cloud-based data warehouse platform that allows users to store, analyze, and exchange data. It's a Software as a Service (SaaS) platform that's designed to be scalable and flexible.
+7.  **Docker**: Docker is a software platform that allows developers to create, test, and deploy applications quickly. It uses containers, which are standardized units that contain all the software required to run an application.
 
 ### Packages
 
