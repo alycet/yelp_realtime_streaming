@@ -10,15 +10,15 @@
 
 
 ## Introduction
-Welcome to the End-to-End Data Engineering Pipeline project! This repository provides a comprehensive guide to building a fully integrated data pipeline that showcases modern data engineering practices. By leveraging powerful technologies such as TCP/IP Socket, Apache Spark, OpenAI LLM (ChatGPT), Apache Kafka, and Snowflake, this project offers a seamless workflow for data acquisition, processing, analysis, and storage.
+Welcome to the Yelp Customer Reviews Realtime Streaming project! This repository provides a comprehensive guide to building a fully integrated data pipeline that showcases modern data engineering practices. By leveraging powerful technologies such as TCP/IP Socket, Apache Spark, OpenAI LLM (ChatGPT), Apache Kafka, and Snowflake, this project offers a seamless workflow for data acquisition, processing, analysis, and storage.
 
 The pipeline covers the following key stages:
 
-1. Data Acquisition: Collect streaming data using TCP/IP Socket for real-time ingestion.
-2. Data Processing: Utilize Apache Spark to process, clean, and transform the acquired data for downstream analysis.
-3. Sentiment Analysis with ChatGPT: Perform sentiment analysis on the processed data using OpenAI's language model to extract valuable insights.
-4. Publishing to Kafka: Push the analyzed data into a Kafka topic for distributed processing and scalability.
-5. Integration with Snowflake: Store the final processed data in Snowflake, enabling efficient querying and advanced analytics.
+1. **Data Acquisition**: Collect streaming data using TCP/IP Socket for real-time ingestion.
+2. **Data Processing**: Utilize Apache Spark to process, clean, and transform the acquired data for downstream analysis.
+3. **Sentiment Analysis with ChatGPT**: Perform sentiment analysis on the processed data using OpenAI's language model to extract valuable insights.
+4. **Publishing to Kafka**: Push the analyzed data into a Kafka topic for distributed processing and scalability.
+5. **Integration with Snowflake**: Store the final processed data in Snowflake, enabling efficient querying and advanced analytics.
 
 This project is designed to serve as a foundational blueprint for building scalable and reliable data pipelines that integrate advanced machine learning models with modern data platforms. Whether you're a data engineer, machine learning enthusiast, or tech hobbyist, this repository will equip you with the skills to create robust and production-ready data workflows.
 
