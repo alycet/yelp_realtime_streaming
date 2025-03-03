@@ -77,21 +77,20 @@ Set Up the Environment:
 
 1. **Clone the repository from GitHub**:
 
-- Install the required dependencies (e.g., Python libraries, Apache Spark, Kafka, etc.).
-
-- Configure Docker and Docker Compose if the project uses containerization.
+  - Install the required dependencies (e.g., Python libraries, Apache Spark, Kafka, etc.).
+  - Configure Docker and Docker Compose if the project uses containerization.
 
 2. **Initialize the TCP/IP Socket**:
 
-- Start the TCP/IP socket server to simulate real-time data streaming.
+  - Start the TCP/IP socket server to simulate real-time data streaming.
 
-- The server streams data from the Yelp dataset in chunks to mimic a live data feed.
+  - The server streams data from the Yelp dataset in chunks to mimic a live data feed.
 
 3. **Data Processing with Apache Spark**:
 
-- Launch the Apache Spark cluster (master and worker nodes).
+  - Launch the Apache Spark cluster (master and worker nodes).
 
-Spark processes the incoming data stream, performing transformations and cleaning.
+  - Spark processes the incoming data stream, performing transformations and cleaning.
 
 4. **Sentiment Analysis with OpenAI LLM**:
 
