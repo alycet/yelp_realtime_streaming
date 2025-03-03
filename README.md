@@ -31,13 +31,14 @@ review is written for. You can download the dataset [here](https://business.yelp
 
 ## Sevices/Tools Used
 
-1. **TCP/IP Socket**:
-2. **Apache Spark**:
+1. **TCP/IP Socket**: A TCP/IP socket is a virtual endpoint on a computer network that allows applications to send and receive data over the Transmission Control Protocol (TCP) using the Internet Protocol (IP
+2. **Apache Spark**: Apache Spark is a free, open-source framework for processing large amounts of data in real time
 3. **Confluent Kafka**: Confluent is a cloud-based data streaming platform that helps users store, access, and manage data in real time. It's built on Apache Kafka, but includes additional tools and services.
-4. **Confluent Control Center and Schema Registry**:
-5. **Kafka Connect**:
-6. **Snowflake**: Snowflake is a cloud-based data warehouse platform that allows users to store, analyze, and exchange data. It's a Software as a Service (SaaS) platform that's designed to be scalable and flexible.
-7. **Docker**: Docker is a software platform that allows developers to create, test, and deploy applications quickly. It uses containers, which are standardized units that contain all the software required to run an application.
+4. **Confluent Control Center**: Confluent Control Center is a web-based tool that allows users to manage and monitor Apache Kafka clusters within Confluent Platform, providing a user interface to view cluster health, manage topics, observe message flows, and interact with features like Schema Registry
+5. **Confluent Schema Registry**: Confluent Schema Registry is a centralized repository within the Confluent Platform that allows developers to store, manage, and retrieve data schemas used for serializing messages in Apache Kafka
+6. **Kafka Connect**: Kafka Connect is a free, open-source tool that allows users to integrate data between Apache Kafka and other systems
+7. **Snowflake**: Snowflake is a cloud-based data warehouse platform that allows users to store, analyze, and exchange data. It's a Software as a Service (SaaS) platform that's designed to be scalable and flexible.
+8. **Docker**: Docker is a software platform that allows developers to create, test, and deploy applications quickly. It uses containers, which are standardized units that contain all the software required to run an application.
 
 ## Packages
 
@@ -77,8 +78,8 @@ Set Up the Environment:
 
 1. **Clone the repository from GitHub**:
 
-      - Install the required dependencies (e.g., Python libraries, Apache Spark, Kafka, etc.).
-      - Configure Docker and Docker Compose if the project uses containerization.
+      - Naviagate to the project directory.
+      - Use Docker Compose to launch and initialize the Spark cluster.
 
 2. **Initialize the TCP/IP Socket**:
       - Start the TCP/IP socket server to simulate real-time data streaming.
@@ -91,7 +92,7 @@ Set Up the Environment:
 4. **Sentiment Analysis with OpenAI LLM**:
 
       - Integrate OpenAI's language model (e.g., ChatGPT) to analyze the sentiment of Yelp reviews.
-      - Extract insights such as positive, negative, or neutral sentiments.
+      - The model extracts insights such as positive, negative, or neutral sentiments from the reviews text column.
 
 5. **Publish Data to Kafka**:
 
@@ -100,9 +101,9 @@ Set Up the Environment:
 
 6. **Ingest Data into Snowflake**:
 
-      - Use Kafka Connect or a custom consumer to stream data from Kafka to Snowflake.
+      - Use Kafka Connect sink to stream data from Kafka to Snowflake.
 
 7. **Monitor and Optimize**:
 
-      - Monitor the pipeline's performance using tools like Kafka Control Center or Spark UI.
-      - Optimize configurations for better throughput and lower latency.
+      - Continue to monitor the pipeline's performance using the Kafka Control Center and Spark UI.
+
