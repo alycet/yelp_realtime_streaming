@@ -107,5 +107,5 @@ Set Up the Environment:
 
       - Continue to monitor the pipeline's performance using the Kafka Control Center and Spark UI.
   
-[Back to table of contents]()
+[Back to table of contents](https://github.com/alycet/yelp_realtime_streaming/blob/main/README.md#table-of-contents)
 
