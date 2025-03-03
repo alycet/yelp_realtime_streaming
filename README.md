@@ -2,7 +2,7 @@
 
 ## Table of Contents
 - [Introduction](https://github.com/alycet/yelp_realtime_streaming/blob/main/README.md#introduction)
-- [System Architecture]()
+- [System Architecture](https://github.com/alycet/yelp_realtime_streaming/tree/main?tab=readme-ov-file#system-architecture)
 - [About the Data]()
 - [Services/Tools Used]()
 - [Packages]()
