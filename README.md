@@ -22,12 +22,15 @@ The pipeline covers the following key stages:
 
 This project is designed to serve as a foundational blueprint for building scalable and reliable data pipelines that integrate advanced machine learning models with modern data platforms. Whether you're a data engineer, machine learning enthusiast, or tech hobbyist, this repository will equip you with the skills to create robust and production-ready data workflows.
 
+[Back to table of contents](https://github.com/alycet/yelp_realtime_streaming/blob/main/README.md#table-of-contents)
+
 ## System Architecture
 ![Architecture Diagram](https://github.com/alycet/yelp_realtime_streaming/blob/main/Yelp_Streaming_Architecture.png)
 ## About the Data
 The Yelp Open Dataset is a subset of Yelp data that is intended for educational use. It provides real-world data related to businesses including reviews, photos, check-ins, and attributes like hours, parking availability, and ambience.  It contains about 7 million reviews and 150,000 business across 11 metropolitan areas.  For this project, we will be using the customer reviews data which contains full review text along with the user_id that wrote the review and the business_id the 
 review is written for. You can download the dataset [here](https://business.yelp.com/data/resources/open-dataset/).
 
+[Back to table of contents](https://github.com/alycet/yelp_realtime_streaming/blob/main/README.md#table-of-contents)
 
 ## Sevices/Tools Used
 
@@ -39,6 +42,8 @@ review is written for. You can download the dataset [here](https://business.yelp
 6. **Kafka Connect**: Kafka Connect is a free, open-source tool that allows users to integrate data between Apache Kafka and other systems
 7. **Snowflake**: Snowflake is a cloud-based data warehouse platform that allows users to store, analyze, and exchange data. It's a Software as a Service (SaaS) platform that's designed to be scalable and flexible.
 8. **Docker**: Docker is a software platform that allows developers to create, test, and deploy applications quickly. It uses containers, which are standardized units that contain all the software required to run an application.
+
+[Back to table of contents](https://github.com/alycet/yelp_realtime_streaming/blob/main/README.md#table-of-contents)
 
 ## Packages
 
@@ -72,6 +77,7 @@ typing_extensions==4.12.2
 tzdata==2025.1
 
 ```
+[Back to table of contents](https://github.com/alycet/yelp_realtime_streaming/blob/main/README.md#table-of-contents)
 
 ## Project Execution Flow
 
