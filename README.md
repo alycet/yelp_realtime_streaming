@@ -5,7 +5,7 @@
 
 ### System Architecture
 ![Architecture Diagram](https://github.com/alycet/yelp_realtime_streaming/blob/main/Yelp_Streaming_Architecture.png)
-### About the Data/AP
+### About the Data
 [dataset website](https://business.yelp.com/data/resources/open-dataset/)
 
 ### Sevices/Tools Used
