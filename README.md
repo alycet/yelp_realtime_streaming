@@ -20,6 +20,7 @@ application.
 ```
 annotated-types==0.7.0
 anyio==4.8.0
+attrs==25.1.0
 certifi==2025.1.31
 colorama==0.4.6
 confluent-kafka==2.8.0
