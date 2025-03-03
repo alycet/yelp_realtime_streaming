@@ -1,12 +1,17 @@
 # Yelp Customer Reviews Realtime Streaming
 
+### Table of Contents
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+
 ### Introduction
 
 
 ### System Architecture
 ![Architecture Diagram](https://github.com/alycet/yelp_realtime_streaming/blob/main/Yelp_Streaming_Architecture.png)
 ### About the Data
-The Yelp Open Dataset is a subset of Yelp data that is intended for educational use. It provides real-world data related to businesses including reviews, photos, check-ins, and attributes like hours, parking availability, and ambience.  It contains about 7 million reviews and 150,000 business across 11 metropolitan areas.  For this project, we will be using the customer reviews data which contains full review text data including the user_id that wrote the review and the business_id the 
+The Yelp Open Dataset is a subset of Yelp data that is intended for educational use. It provides real-world data related to businesses including reviews, photos, check-ins, and attributes like hours, parking availability, and ambience.  It contains about 7 million reviews and 150,000 business across 11 metropolitan areas.  For this project, we will be using the customer reviews data which contains full review text along with the user_id that wrote the review and the business_id the 
 review is written for. You can download the dataset [here](https://business.yelp.com/data/resources/open-dataset/).
 
 
