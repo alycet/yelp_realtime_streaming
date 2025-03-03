@@ -91,13 +91,11 @@ Set Up the Environment:
 4. **Sentiment Analysis with OpenAI LLM**:
 
       - Integrate OpenAI's language model (e.g., ChatGPT) to analyze the sentiment of Yelp reviews.
-
       - Extract insights such as positive, negative, or neutral sentiments.
 
 5. **Publish Data to Kafka**:
 
       - Push the processed and enriched data (including sentiment analysis results) to a Kafka topic.
-
       - Kafka acts as a distributed messaging system for scalable data handling.
 
 6. **Ingest Data into Snowflake**:
@@ -107,5 +105,4 @@ Set Up the Environment:
 7. **Monitor and Optimize**:
 
       - Monitor the pipeline's performance using tools like Kafka Control Center or Spark UI.
-
       - Optimize configurations for better throughput and lower latency.
