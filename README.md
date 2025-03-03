@@ -106,4 +106,6 @@ Set Up the Environment:
 7. **Monitor and Optimize**:
 
       - Continue to monitor the pipeline's performance using the Kafka Control Center and Spark UI.
+  
+[Back to table of contents]()
 
