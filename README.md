@@ -82,9 +82,9 @@ tzdata==2025.1
 ## Project Execution Flow
 
 1. **Set Up the Environment**:
-      - Clone the repository from GitHub**:
+      - Clone the repository from GitHub:
       - Naviagate to the project directory.
-      - Use Docker Compose to launch and initialize the Spark cluster (master and worker nodes) 
+      - Use Docker Compose to launch and initialize the Spark cluster (master and worker nodes). 
 
 2. **Initialize the TCP/IP Socket**:
       - Submit socket streaming job to cluster to start the TCP/IP socket server to simulate real-time data streaming.
@@ -97,14 +97,14 @@ tzdata==2025.1
       - The OpenAI language model extracts insights such as positive, negative, or neutral sentiments from the text column in the yelp reviews.
 
 4. **Publish Data to Kafka**:
-      - Create a Kafka Cluster in Confluent Cloud and create a Kafka topic.
+      - Create a Kafka Cluster and topic in Confluent Cloud.
       - Push the processed and enriched data to the Kafka topic.
-      - Messages in the Kafka topic can be monitored in the Confluent Control Center
+      - Messages in the Kafka topic can be monitored in the Confluent Control Center.
 
 5. **Ingest Data into Snowflake**:
       - Use Kafka Connector to create a Snowflake sink connector.
       - The sink connector streams data from the Kafka topic to a Snowflake staging table.
-      - In Snowflake, the data is properly formattd, cleaned, and loaded to the target production table using Snowflake procedures and tasks.
+      - In Snowflake, the data is properly formatted, cleaned, and loaded to the target production table using Snowflake scheduled procedures and tasks.
 
 6. **Monitor and Optimize**:
       - Continue to monitor the pipeline's performance using the Kafka Control Center and Spark UI.
