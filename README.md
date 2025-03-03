@@ -3,7 +3,7 @@
 ## Table of Contents
 - [Introduction](https://github.com/alycet/yelp_realtime_streaming/blob/main/README.md#introduction)
 - [System Architecture](https://github.com/alycet/yelp_realtime_streaming/tree/main?tab=readme-ov-file#system-architecture)
-- [About the Data]()
+- [About the Data](https://github.com/alycet/yelp_realtime_streaming/tree/main?tab=readme-ov-file#about-the-data)
 - [Services/Tools Used]()
 - [Packages]()
 - [Project Execution Flow]()
