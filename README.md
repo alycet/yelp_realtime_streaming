@@ -5,7 +5,7 @@
 - [System Architecture](https://github.com/alycet/yelp_realtime_streaming/tree/main?tab=readme-ov-file#system-architecture)
 - [About the Data](https://github.com/alycet/yelp_realtime_streaming/tree/main?tab=readme-ov-file#about-the-data)
 - [Services/Tools Used](https://github.com/alycet/yelp_realtime_streaming/tree/main?tab=readme-ov-file#sevicestools-used)
-- [Packages]()
+- [Packages](https://github.com/alycet/yelp_realtime_streaming/blob/main/README.md#packages)
 - [Project Execution Flow]()
 
 
