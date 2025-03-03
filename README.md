@@ -5,17 +5,17 @@
 
 
 
-### Introduction
+## Introduction
 
 
-### System Architecture
+## System Architecture
 ![Architecture Diagram](https://github.com/alycet/yelp_realtime_streaming/blob/main/Yelp_Streaming_Architecture.png)
-### About the Data
+## About the Data
 The Yelp Open Dataset is a subset of Yelp data that is intended for educational use. It provides real-world data related to businesses including reviews, photos, check-ins, and attributes like hours, parking availability, and ambience.  It contains about 7 million reviews and 150,000 business across 11 metropolitan areas.  For this project, we will be using the customer reviews data which contains full review text along with the user_id that wrote the review and the business_id the 
 review is written for. You can download the dataset [here](https://business.yelp.com/data/resources/open-dataset/).
 
 
-### Sevices/Tools Used
+## Sevices/Tools Used
 
 1. **TCP/IP Socket**:
 2. **Apache Spark**:
@@ -25,7 +25,7 @@ review is written for. You can download the dataset [here](https://business.yelp
 6.  **Snowflake**: Snowflake is a cloud-based data warehouse platform that allows users to store, analyze, and exchange data. It's a Software as a Service (SaaS) platform that's designed to be scalable and flexible.
 7.  **Docker**: Docker is a software platform that allows developers to create, test, and deploy applications quickly. It uses containers, which are standardized units that contain all the software required to run an application.
 
-### Packages
+## Packages
 
 ```
 annotated-types==0.7.0
@@ -58,7 +58,7 @@ tzdata==2025.1
 
 ```
 
-### Project Execution Flow
+## Project Execution Flow
 1. ***Extract***
    
      * text
