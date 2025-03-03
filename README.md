@@ -73,27 +73,44 @@ tzdata==2025.1
 ```
 
 ## Project Execution Flow
-1. ***Extract***
-   
-     * text
-     * text
-     * text
-     * text
-     * text
-       
-  
-  
+Set Up the Environment:
 
-2.  ***Transform***
+1. **Clone the repository from GitHub**:
 
-     * text
-     * text
-     * text
-     * text
+- Install the required dependencies (e.g., Python libraries, Apache Spark, Kafka, etc.).
 
+- Configure Docker and Docker Compose if the project uses containerization.
 
-3.  ***Load***
-   
-    * text
-    * text
-    * text
+2. **Initialize the TCP/IP Socket**:
+
+- Start the TCP/IP socket server to simulate real-time data streaming.
+
+- The server streams data from the Yelp dataset in chunks to mimic a live data feed.
+
+3. **Data Processing with Apache Spark**:
+
+- Launch the Apache Spark cluster (master and worker nodes).
+
+Spark processes the incoming data stream, performing transformations and cleaning.
+
+4. **Sentiment Analysis with OpenAI LLM**:
+
+- Integrate OpenAI's language model (e.g., ChatGPT) to analyze the sentiment of Yelp reviews.
+
+- Extract insights such as positive, negative, or neutral sentiments.
+
+5. **Publish Data to Kafka**:
+
+- Push the processed and enriched data (including sentiment analysis results) to a Kafka topic.
+
+- Kafka acts as a distributed messaging system for scalable data handling.
+
+6. **Ingest Data into Snowflake**:
+
+- Use Kafka Connect or a custom consumer to stream data from Kafka to Snowflake.
+
+7. **Monitor and Optimize**:
+
+- Monitor the pipeline's performance using tools like Kafka Control Center or Spark UI.
+
+- Optimize configurations for better throughput and lower latency.
