@@ -17,7 +17,7 @@ def sentiment_analysis(comment) -> str:
                     "role": "system",
                     "content": """
                         You're a mahcine learning model with a task of classifying comments into POSITIVE, NEGATIVE, NEUTRAL. 
-                        You are to respond with one work from the options specified above. Do not add anything else.
+                        You are to respond with one word from the options specified above. Do not add anything else.
                         Here is the comment:
 
                         {comment}
